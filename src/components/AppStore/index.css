@@ -1,0 +1,44 @@
+/* Write your CSS here */
+.app-store-bg-cont {
+  background-image: linear-gradient(#fff1eb, #ace0f9);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-store-bg-cont > h1 {
+  font-weight: bold;
+  font-size: 27px;
+}
+.search-bar {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-bottom: 20px;
+}
+
+.search-bar > img {
+  position: relative;
+  top: 5px;
+  right: 10px;
+  cursor: pointer;
+}
+.search-icon {
+  position: relative;
+  top: 5px;
+  right: 10px;
+  cursor: pointer;
+}
+.app-list-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 0px;
+  width: 100%;
+}
+
+.tab-items-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+}
